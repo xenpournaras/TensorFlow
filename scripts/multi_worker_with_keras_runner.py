@@ -2,7 +2,7 @@ import sys
 import os
 import threading
 
-
+print("HELLO")
 node_str = sys.stdin.read().replace("\n","")
 nodes = node_str.split(' ')
 first = True
